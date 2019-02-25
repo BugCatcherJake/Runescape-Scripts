@@ -36,4 +36,4 @@ printStats("yew")
 printStats("pineapple")
 printStats("papaya", True)
 
-driver.close()
+driver.quit()
