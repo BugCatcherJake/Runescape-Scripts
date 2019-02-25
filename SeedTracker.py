@@ -30,6 +30,7 @@ def printStats(seedType, tree = False):
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(30)
+print()
 printStats("willow")
 printStats("maple")
 printStats("yew")
@@ -37,3 +38,4 @@ printStats("pineapple")
 printStats("papaya", True)
 
 driver.quit()
+input("\nFinished")
